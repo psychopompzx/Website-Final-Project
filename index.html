@@ -14,9 +14,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-      div {
-
+    #ArtMeter {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
     }
+
+    #ArtMeter td, #ArtMeter th {
+      border: 1px solid #ddd;
+      padding: 5px;
+    }
+
+  #ArtMeter tr:nth-child(even){
+    background-color: black;
+    color: white
+  }
+
+
+
+  #ArtMeter th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+
 
     h1 {
       text-align: center;
@@ -94,12 +117,23 @@
           Art gives the player a number of beneficial improvements: granting immunity to crowd control effects,
           restoring Mana to full, and lastly, depending on how many orbs were activated will provide greater benefits.
           The scaling benefit is as follows:
-          <ul>
-            <li> Pick an Image (careful of the file extension in the URL)
-            <li> Record URL, cite it, comment for date accessm and record original dimensions
-            <li> Use blockquote and comment as appropiate
-            <li> Use img-tag with atributes src, alt, title, and style with width-height
-          </ul>
+          <table id="ArtMeter">
+          <tr>
+            <th>Activated Death Orbs</th>
+            <th>Duration</th>
+            <th>Movement speed</th>
+            <th>Attack Speed</th>
+            <th>Attack Power</th>
+            <th>Cooldown Reduction</th>
+            <th>Mana Regeneration</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>10 seconds</td>
+            <td>+ 10%</td>
+            <td>+ 10%</td>
+          </tr>
+          </table>
 
         </p>
       </section>
