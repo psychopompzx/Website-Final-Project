@@ -14,20 +14,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
+      div {
+
+
+    }
     #ArtMeter {
+      text-align: center;
       font-family: Arial, Helvetica, sans-serif;
       border-collapse: collapse;
       width: 50%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     #ArtMeter td, #ArtMeter th {
+      text-align: center;
       border: 1px solid #ddd;
       padding: 5px;
+
     }
 
   #ArtMeter tr {
     background-color: black;
     color: white
+
   }
 
 
@@ -35,9 +45,10 @@
   #ArtMeter th {
     padding-top: 5px;
     padding-bottom: 5px;
-    text-align: left;
+    text-align: center;
     background-color: black;
     color: white;
+
   }
 
 
@@ -73,6 +84,48 @@
       text-align: left;
       color: white
     }
+
+    #three{
+     text-indent: 0px;
+     text-align: center;
+     letter-spacing: 1px;
+     margin: auto;
+     padding: 100px;
+     text-align: left;
+     color: white
+   }
+    #four{
+      text-indent: 0px;
+      text-align: center;
+      letter-spacing: 1px;
+      margin: auto;
+      padding: 100px;
+      text-align: left;
+      color: white
+
+
+    }
+
+    #img1{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+
+
+
+    }
+    #img2{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+
+    }
+
+
+
+
     ul {
       color: white
 
@@ -89,36 +142,49 @@
 
       }
 
+
   </style>
   </head>
 
   <body>
     <section>
-
+        <div>
         <h1>Lost Ark Deathblade Guide</h1>
-        <p id="one"style="font-size:1vw">Hello and welcome to my deathblade guide. This guide will showcase if the Deathblade class is right for you.
+          <img id="img1"
+               src="https://i.ytimg.com/vi/PiDyUN7Smas/maxresdefault.jpg">
+        <p id="one"
+        style="font-size:1.3vw">
+          Hello and welcome to my deathblade guide. This guide will showcase if the Deathblade class is right for you.
           I will be showcasing tips and tricks,
           builds that you can do and just some things that you need to know in order to be the best Deathblade you can be.</p>
-
+        </div>
 
     </section>
     <section>
+        <div>
+        <h1 id="head1"
+        style="font-size:2.2vw">Deathblade Overview</h1>
+        <img id="img2"
+        src="https://cdn.brgeeks.com/wp-content/uploads/2022/02/Lost-Ark-Deathblade-Character.jpg">
+        <p id="two" style="font-size:1.3vw">
 
-        <h1 id="head1">Deathblade Overview</h1>
-        <img src="https://cdn.brgeeks.com/wp-content/uploads/2022/02/Lost-Ark-Deathblade-Character.jpg" style="max-width:25%;height:auto">
-        <p id="two" style="font-size:1vw">
           The Deathblade in Lost Ark is an Assassin type class that wields 3 Swords; two Daggers and one Longsword.
           The Deathblade is a Melee DPS, primarily attacking in close rage distance.
           They fight with the flurry of a thousand cuts with a chaotic fast-paced slashing style.
           Their musical instrument is a Flute.
+        </p>
+      </div>
+        <p id="three" style="font-size:1.3vw">
           The Identity Gauge of the Deathblade is the Art Meter.
           The Art Meter fills upon successful hits with attacks filling up 3 Death Orbs.
           Death Orbs can be activated with z and the Deathblade will enter into an enhanced state known as Art.
           Art gives the player a number of beneficial improvements: granting immunity to crowd control effects,
           restoring Mana to full, and lastly, depending on how many orbs were activated will provide greater benefits.
           The scaling benefit is as follows:
-          <table id="ArtMeter">
-          <tr>
+          <p>
+          <div class="tablediv">
+            <table id="ArtMeter">
+          <tr style="font-size:1.1vw">
             <th>Activated Death Orbs</th>
             <th>Duration</th>
             <th>Movement speed</th>
@@ -127,7 +193,7 @@
             <th>Cooldown Reduction</th>
             <th>Mana Regeneration</th>
           </tr>
-          <tr>
+          <tr style="font-size:1.3vw">
             <td>1</td>
             <td>10 seconds</td>
             <td>+ 10%</td>
@@ -136,7 +202,7 @@
             <td>10% faster</td>
             <td>15% faster</td>
           </tr>
-          <tr>
+          <tr style="font-size:1.1vw">
             <td>2</td>
             <td>20 seconds</td>
             <td>+ 10%</td>
@@ -145,7 +211,7 @@
             <td>30% faster</td>
             <td>25% faster</td>
           </tr>
-          <tr>
+          <tr style="font-size:1.1vw">
             <td>3</td>
             <td>30 seconds</td>
             <td>+ 10%</td>
@@ -157,6 +223,14 @@
           </table>
 
         </p>
+      </div>
+      <div>
+        <p id="four" style="font-size:1.3vw">
+          Lastly, while in Art, the Deathblade can activate the Identity Gauge a second time causing a damaging ability: Deathblade Surge Z.
+          This knocks down opponents and deals damage based on the number of Orbs used.
+          Once this second activation is executed the Deathblade will exit this Art state.
+        </p>
+      </div>
       </section>
 
 
